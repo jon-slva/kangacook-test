@@ -14,8 +14,8 @@ export default function Nav() {
 					</NavLink>
 				</li>
 				<li className='nav__item'>
-					<NavLink to="/p2" className='nav__item-link'>
-						P2
+					<NavLink to="/apitypes" className='nav__item-link'>
+						API Types
 					</NavLink>
 				</li>
 				<li className='nav__item'>

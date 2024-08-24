@@ -5,6 +5,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import './App.scss'
+import ApiTypes from './pages/ApiTypes/ApiTypes'
 
 export default function App() {
 
@@ -14,6 +15,8 @@ export default function App() {
 			<BrowserRouter>
 				<Nav />
 				<Routes>
+					<Route path="/" />
+					<Route path="/apitypes" element={<ApiTypes />} />
 				</Routes>
 			</BrowserRouter>
 			<div>
