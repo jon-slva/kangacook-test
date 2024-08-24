@@ -1,6 +1,6 @@
+import { useEffect, useState } from 'react';
 import './ApiTypes.scss';
 import axios from 'axios';
-import { useEffect, useState } from 'react';
 
 
 export default function ApiTypes() {
@@ -19,8 +19,6 @@ export default function ApiTypes() {
 			}
 		}
 		fetchData();
-		console.log(apiCards)
-
 	}, [])
 
 	if (!apiCards) {
