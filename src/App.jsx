@@ -1,7 +1,8 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Nav from './components/Nav/Nav'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.scss'
 
@@ -19,7 +20,11 @@ export default function App() {
 				</a>
 			</div>
 			<h1>Vite + React</h1>
-
+			<BrowserRouter>
+				<Nav />
+				<Routes>
+				</Routes>
+			</BrowserRouter>
 		</>
 	)
 }
