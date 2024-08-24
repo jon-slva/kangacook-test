@@ -15,7 +15,7 @@ export default function Nav() {
 				</li>
 				<li className='nav__item'>
 					<NavLink to="/tables" className='nav__item-link'>
-						P3
+						Tables
 					</NavLink>
 				</li>
 			</ul>
