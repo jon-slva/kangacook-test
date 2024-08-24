@@ -1,12 +1,31 @@
+@import '../../styles/partials/mixins';
+
+
+main {
+	padding: 0 0.75rem;
+
+	@include tablet {
+		padding: 0 2rem;
+	}
+}
+
 .top {
 	background-color: #2c2c2c;
-	margin: 0 2rem;
-	padding: 1rem 0;
+	margin: 0 0.75rem;
+	padding: 1rem 0.5rem;
 	border-radius: 8px;
+
+	@include tablet {
+		margin: 0 2rem;
+	}
 }
 
 .promise-toggle {
-	margin: 0 1rem;
+	margin: 0.25rem 0.5rem;
+
+	@include tablet {
+		margin: 0 1rem;
+	}
 }
 
 .card-container {
@@ -19,7 +38,6 @@
 	margin: 1rem;
 	background-color: #1a1a1a;
 	aspect-ratio: 3 / 4;
-	width: 23%;
 	border-radius: 8px;
 	box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.4);
 	display: flex;
@@ -27,6 +45,12 @@
 	justify-content: space-between;
 	overflow: hidden;
 	object-fit: cover;
+	width: 17.1875rem;
+
+	@include tablet {
+		width: 18.75rem;
+	}
+
 
 	&__top {
 		aspect-ratio: 4 / 3;

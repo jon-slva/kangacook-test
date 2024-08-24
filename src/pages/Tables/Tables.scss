@@ -1,11 +1,18 @@
+@import '../../styles/partials/mixins';
+
+
 main {
-	padding: 0 120px;
+	padding: 0 0.75rem;
+
+	@include tablet {
+		padding: 0 0.75rem;
+	}
 }
 
 table {
 	width: 80%;
 	border-collapse: collapse;
-	margin: 36px auto;
+	margin: 2.25rem auto;
 }
 
 thead {
@@ -17,7 +24,7 @@ thead {
 		content: '';
 		position: absolute;
 		background-color: #1a1a1a;
-		border-radius: 8px;
+		border-radius: 0.5rem;
 		display: block;
 		width: 100%;
 		height: 100%;
@@ -27,7 +34,7 @@ thead {
 }
 
 thead th {
-	padding: 16px;
+	padding: 1rem;
 }
 
 ol li {
@@ -36,5 +43,5 @@ ol li {
 
 ol ul li {
 	list-style: inside disc;
-	padding-left: 16px;
+	padding-left: 1rem;
 }

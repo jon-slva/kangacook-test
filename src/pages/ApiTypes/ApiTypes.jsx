@@ -82,7 +82,6 @@ export default function ApiTypes() {
 			</aside>
 
 
-
 		</main >
 	)
 }
